@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercicio 3</h1>
+    <p>Faça um algoritmo que solicite 10 números inteiros ao usuário, calcule e
+        imprima:</p>
+    <p>a. O dobro de cada número positivo.</p>
+    <p>b. A quantidade de números negativos.</p>
+    <p>* Considere que o usuário nunca digitará o número 0 (zero).</p>
+</body>
+</html>
+
+<script>
+    //inicio - var i - 1
+    //parada - var i <= 3
+    //continuidade i++
+    var numero, dobro, qtdNegativo = 0
+    for(let i=1; i<=10 ; i++)
+    {
+      numero = parseInt(prompt('Digite um numero'))
+      if(numero > 0){//eh positivo
+        dobro = 2 * numero
+        console.log('O numero digitado foi '
+        +numero+' e o seu dobro eh '+dobro)
+      }else{//eh negativo
+        qtdNegativo++
+      }
+    }
+    con
+</script>
